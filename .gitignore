@@ -4,6 +4,9 @@ data/processed/
 *.db
 *.sqlite
 
+# But allow transactions.db
+!data/transactions.db
+
 # Virtual environment
 venv/
 ENV/
